@@ -1,5 +1,5 @@
 <template>
-  <Nav page="css-content" breadcrumb="true" />
+  <Nav page="cheap-letter-deletion" breadcrumb="true" />
   <div
     class="solution bg-gray-800 w-10/12 mx-auto min-h-screen py-12 rounded-lg text-white px-6 mb-3"
   >

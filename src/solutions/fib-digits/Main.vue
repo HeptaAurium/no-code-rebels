@@ -1,5 +1,5 @@
 <template>
-    <Nav page="css-content" breadcrumb="true" />
+    <Nav page="fib-digits" breadcrumb="true" />
     <div class="solution bg-gray-800 w-10/12 mx-auto min-h-screen py-12 rounded-lg text-white px-6 mb-3">
         <div class="my-3 py-3" id="question">
             QUESTION:

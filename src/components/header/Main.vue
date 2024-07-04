@@ -20,34 +20,41 @@
           <li>
             <router-link
               to="/solutions/question-one"
-              class="block py-2 px-3 text-white rounded"
+              class="block p-2 text-white rounded uppercase"
               :class="{
                 'text-blue-700': page == 'fizzbuzz',
               }"
-              aria-current="page"
               >FizzBuzz
             </router-link>
           </li>
           <li>
             <router-link
               to="/solutions/question-one"
-              class="block py-2 px-3 text-white rounded"
+              class="block p-2 text-white rounded uppercase"
               :class="{
                 'text-blue-700': page == 'css-content',
               }"
-              aria-current="page"
               >CSS Content Position
             </router-link>
           </li>
           <li>
             <router-link
               to="/solutions/question-three"
-              class="block py-2 px-3 text-white rounded"
+              class="block p-2 text-white rounded uppercase"
               :class="{
-                'text-blue-700': page == 'css-content',
+                'text-blue-700': page == 'cheap-letter-deletion',
               }"
-              aria-current="page"
               >Cheap Letter Deletion
+            </router-link>
+          </li>
+          <li>
+            <router-link
+              to="/solutions/question-four"
+              class="block p-2 text-white rounded uppercase"
+              :class="{
+                'text-blue-700': page == 'fib-digits',
+              }"
+              >FIB DIGITS
             </router-link>
           </li>
         </ul>

@@ -39,6 +39,17 @@
               >CSS Content Position
             </router-link>
           </li>
+          <li>
+            <router-link
+              to="/solutions/question-three"
+              class="block py-2 px-3 text-white rounded"
+              :class="{
+                'text-blue-700': page == 'css-content',
+              }"
+              aria-current="page"
+              >Cheap Letter Deletion
+            </router-link>
+          </li>
         </ul>
       </div>
     </div>

@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import Home from "@/pages/home/Main.vue";
 import FizzBuzz from "@/solutions/fizzbuzz/Main.vue";
 import CssContent from "@/solutions/css-content-position/Main.vue";
+import CheapLetterDeletion from "@/solutions/cheap-letter-deletion/Main.vue";
 
 const routes = [
   {
@@ -26,6 +27,14 @@ const routes = [
     component: CssContent,
     meta: {
       title: "Question Two | Nocode Rebels",
+    },
+  },
+  {
+    path: "/solutions/question-three",
+    name: "cheap-letter-deletion",
+    component: CheapLetterDeletion,
+    meta: {
+      title: "Question Three | Nocode Rebels",
     },
   },
 ];

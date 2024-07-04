@@ -112,6 +112,37 @@
             >View Solution
           </router-link>
         </li>
+        <li class="mb-10 ms-4">
+          <div
+            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
+          ></div>
+          <time
+            class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
+            >QUESTION Three</time
+          >
+          <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+            Cheap Letter Deletion
+          </h3>
+          <p
+            class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400"
+          >
+            You are given a string S. Deletion of the K-th letter of S costs
+            C[K]. After deleting a letter, the costs of deleting other letters
+            do not change. For example, for S = "ab" and C = [1, 3], after
+            deleting 'a', deletion of 'b' will still cost 3. You want to delete
+            some letters from S to obtain a string without two identical letters
+            next to each other. What is the minimum total cost of deletions to
+            achieve such a string? Write a function: function solution(S, C);
+            that, given string S and array C of integers, both of length N,
+            returns the minimum cost of all necessary deletions.
+          </p>
+          <router-link
+            to="/solutions/question-three"
+            href="#"
+            class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+            >View Solution
+          </router-link>
+        </li>
       </ol>
     </section>
   </div>

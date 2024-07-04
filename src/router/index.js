@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 
 import Home from "@/pages/home/Main.vue";
 import FizzBuzz from "@/solutions/fizzbuzz/Main.vue";
+import CssContent from "@/solutions/css-content-position/Main.vue";
 
 const routes = [
   {
@@ -17,6 +18,14 @@ const routes = [
     component: FizzBuzz,
     meta: {
       title: "Question One | Nocode Rebels",
+    },
+  },
+  {
+    path: "/solutions/question-two",
+    name: "css-content-position",
+    component: CssContent,
+    meta: {
+      title: "Question Two | Nocode Rebels",
     },
   },
 ];

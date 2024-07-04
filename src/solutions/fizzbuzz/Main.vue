@@ -1,9 +1,9 @@
 <template>
-  <Nav page="fizzbuzz" />
+  <Nav page="fizzbuzz" breadcrumb="true" />
   <div
     class="solution bg-gray-800 w-10/12 mx-auto min-h-screen py-12 rounded-lg text-white px-6 mb-3"
   >
-    <div class="my-3">
+    <div class="my-3 py-3" id="question">
       QUESTION:
       <div class="flex flex-wrap">
         <div class="italic p-4">
@@ -15,7 +15,7 @@
         </div>
       </div>
     </div>
-    <div class="my-3">
+    <div class="my-3 py-3" id="solution">
       SOLUTION:
       <div class="flex flex-wrap">
         <div class="italic p-4">
@@ -33,7 +33,7 @@
         </div>
       </div>
     </div>
-    <div class="my-3">
+    <div class="my-3 py-3" id="result">
       TEST:
       <div class="flex flex-wrap">
         <div class="w-full mt-3">

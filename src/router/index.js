@@ -4,6 +4,7 @@ import Home from "@/pages/home/Main.vue";
 import FizzBuzz from "@/solutions/fizzbuzz/Main.vue";
 import CssContent from "@/solutions/css-content-position/Main.vue";
 import CheapLetterDeletion from "@/solutions/cheap-letter-deletion/Main.vue";
+import FibDigits from "@/solutions/fib-digits/Main.vue";
 
 const routes = [
   {
@@ -35,6 +36,14 @@ const routes = [
     component: CheapLetterDeletion,
     meta: {
       title: "Question Three | Nocode Rebels",
+    },
+  },
+  {
+    path: "/solutions/question-four",
+    name: "fib-digits",
+    component: FibDigits,
+    meta: {
+      title: "Question Four | Nocode Rebels",
     },
   },
 ];
